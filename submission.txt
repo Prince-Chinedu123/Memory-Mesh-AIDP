@@ -1,7 +1,11 @@
-Project Name: Memory Mesh Tagline: High-Fidelity Spatial Reconstruction via Decentralized GPU Oracles.
+Project Name: Memory Mesh
+Tagline: High-Fidelity Spatial Reconstruction via Decentralized GPU Oracles.
 
-The Problem: 3D Gaussian Splatting (3DGS) is the future of digital twins but requires massive VRAM, making it inaccessible to mobile users.
+The Problem: 
+3D Gaussian Splatting (3DGS) represents the frontier of digital twin technology. However, the computational "barrier to entry" is massive. Processing high-resolution research datasets like Yellowhouse-12 requires 24GB+ VRAM, effectively locking out 95% of creators who lack enterprise-grade local hardware.
 
-The AIDP Solution: Memory Mesh offloads the heavy "Structure from Motion" (SfM) and "Splat Training" phases to the AIDP Decentralized Network. By utilizing high-performance NVIDIA nodes on AIDP, we reduce 3D processing time from hours (on a CPU) to minutes.
+The AIDP Solution: 
+Memory Mesh serves as a bridge to the AIDP Decentralized Network. By offloading the computationally intensive "Structure from Motion" (SfM) and "Splat Training" phases to remote AIDP nodes, we democratize spatial computing. Our architecture transforms a 7-hour local CPU bottleneck into a 15-minute GPU sprint.
 
-GPU Usage: This project utilizes AIDP's high-memory nodes (RTX 3090/4090/H100) to handle the parallel processing of thousands of point-cloud images simultaneously.
+GPU Usage Depth: 
+This project maximizes the AIDP marketplace by targeting high-performance NVIDIA nodes (RTX 4090/H100). We utilize parallel processing to handle over 2GB of raw spatial data per scene, demonstrating the scalability and cost-efficiency of the Solana-based compute ecosystem.
