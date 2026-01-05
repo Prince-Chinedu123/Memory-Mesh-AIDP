@@ -6,12 +6,10 @@
 
 **Memory Mesh** democratizes this by using the **AIDP Decentralized GPU Network**. Our platform offloads the heavy "Splat Training" phase to remote AIDP nodes on the Solana chain, turning hours of local processing into minutes of high-performance compute.
 
-## 📊 Dataset & Benchmarking
-To demonstrate maximum compute depth, this project utilizes the industry-standard **Yellowhouse-12** research dataset.
-- **Data Volume:** 2.1 GB (Raw frames + COLMAP poses)
-- **Complexity:** High-fidelity multi-view image sequences.
-- **Target Hardware:** NVIDIA RTX 3090 / 4090 / H100 (Available via AIDP Marketplace).
-
+## 📊 Dataset 
+Waterlily House (Insta360 Spatial Capture) Processing: 30,000 training iterations simulated via AIDP GPU nodes. Result: High-fidelity 4D reconstruction of complex organic environments.
+## 🛠 Technical Architecture (AIDP Integration)
+Memory Mesh acts as the bridge between raw spatial data and AIDP’s high-performance compute:
 ## 🛠 Technical Architecture (AIDP Integration)
 Memory Mesh acts as the bridge between raw spatial data and AIDP’s high-performance compute:
 
@@ -25,3 +23,4 @@ Memory Mesh acts as the bridge between raw spatial data and AIDP’s high-perfor
 To see the AIDP integration in action, run our performance simulator:
 ```bash
 python run_benchmark.py
+
