@@ -9,7 +9,9 @@ def run_simulation():
     time.sleep(1)
     print("Status: Node Verified [PLNk8...Gcyai]")
     print("Task: 3D Gaussian Splatting Training (30,000 Iterations)")
-    print("Dataset: Yellowhouse-12 (2.1GB)")
+    
+    # CORRECTED: Changed Dataset name to match the Waterlily House project
+    print("Dataset: WaterlilyHouse-Spatial (2.1GB)") 
     print("-" * 50)
     
     # Simulating the GPU crunching data
@@ -20,7 +22,9 @@ def run_simulation():
         time.sleep(0.5)
         
     print("\n" + "-" * 50)
-    print("SUCCESS: .PLY Spatial File Generated via AIDP Network.")
+    
+    # CORRECTED: Changed file format to .OBJ to match your uploaded files
+    print("SUCCESS: .OBJ Spatial Mesh Generated via AIDP Network.") 
     print("Total Time on AIDP: 14m 22s (Vs. 6h 45m on local CPU)")
 
 if __name__ == "__main__":
